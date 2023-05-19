@@ -1,49 +1,50 @@
-# Proyecto de Web Cloud
+## Web Cloud Project
 
-## Descripción
+## Description.
 
-Este es un proyecto autónomo que se centra en la creación de una herramienta de almacenamiento en la nube accesible tanto a través de la web como de Telegram. El objetivo principal del proyecto es facilitar la subida y descarga de archivos, ofreciendo una solución práctica y fácil de usar para la gestión de datos.
+This is a standalone project that focuses on creating a cloud storage tool accessible through both the web and Telegram. The main goal of the project is to facilitate the uploading and downloading of files, offering a practical and easy to use solution for data management.
 
-## Tecnologías
+## Technologies
 
-El proyecto utiliza una variedad de tecnologías modernas, que incluyen:
+The project uses a variety of modern technologies, which include:
 
 - **Front-end:** React
-- **Back-end:** Node.js, Express
-- **Gestión de mensajes:** Kafka
-- **Contenedores:** Docker
+- Back-end:** Node.js, Express
+- Message handling: ** Kafka
+- Containers:** Docker
 
-Además, se ha realizado una integración con la API de Telegram para permitir la subida de archivos directamente a través de la plataforma de Telegram.
+In addition, an integration with the Telegram API has been done to allow file uploads directly through the Telegram platform.
 
-## Funcionalidades
+## Functionalities.
 
-1. **Subir archivos:** Los usuarios pueden subir archivos a través de la interfaz web o directamente desde Telegram.
-2. **Descargar archivos:** Los archivos se pueden descargar fácilmente a través de la interfaz web.
-3. **Integración de Telegram:** Los usuarios pueden interactuar con el servicio a través de Telegram, proporcionando una capa adicional de accesibilidad y conveniencia.
+1. **File upload:** Users can upload files through the web interface or directly from Telegram.
+2. **Download files:** Files can be easily downloaded through the web interface.
+3. **Telegram integration:** Users can interact with the service through Telegram, providing an additional layer of accessibility and convenience.
 
-## Futuro del proyecto
+## Future of the project.
 
-Actualmente, estoy trabajando en la integración con Google Drive para expandir aún más las capacidades de almacenamiento y compartir archivos de la herramienta.
+Currently, I am working on integration with Google Drive to further expand the storage and file sharing capabilities of the tool.
 
-## Instalación
+## Installation
 
-Para clonar y ejecutar este proyecto, necesitarás [Git](https://git-scm.com) y [Node.js](https://nodejs.org/en/download/) (que viene con [npm](http://npmjs.com)) instalados en tu ordenador. 
+To clone and run this project, you will need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. 
 
-El proyecto se encuentra dividido en microservicios y se podrá desplegar facilmente.
+The project is divided into microservices and can be easily deployed.
 
-- [Git](https://github.com/MiguelSOAT/cloud-front)
-- [Core](https://github.com/MiguelSOAT/cloud-core)
-- [Telegram integration](https://github.com/MiguelSOAT/telegram-bot)
+- Git](https://github.com/MiguelSOAT/cloud-front)
+- Core](https://github.com/MiguelSOAT/cloud-core)
+- Telegram integration](https://github.com/MiguelSOAT/telegram-bot)
 - [Docker](https://github.com/MiguelSOAT/docker)
 
-Para ello tendremos que ejecutar el siguiente comando en todos los servicios.
-```bash
+To do this we will need to run the following command on all services.
+````bash
 $ npm install
 ```
 
-Posteriormente podremos levantar los microservicios con docker mediante:
+Subsequently we will be able to raise the microservices with docker by means of:
 
-```bash
-# Despliegue docker
+````bash
+# docker deployment
 $ docker-compose up -d --build
 
+Translated with www.DeepL.com/Translator (free version)
