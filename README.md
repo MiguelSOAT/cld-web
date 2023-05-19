@@ -37,14 +37,13 @@ The project is divided into microservices and can be easily deployed.
 - [Docker](https://github.com/MiguelSOAT/docker)
 
 To do this we will need to run the following command on all services.
-````bash
-$ npm install
+```bash
+  $ npm install
 ```
 
 Subsequently we will be able to raise the microservices with docker by means of:
 
-````bash
+```bash
 # docker deployment
 $ docker-compose up -d --build
-
-Translated with www.DeepL.com/Translator (free version)
+```
