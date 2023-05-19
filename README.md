@@ -31,10 +31,10 @@ Para clonar y ejecutar este proyecto, necesitarás [Git](https://git-scm.com) y 
 
 El proyecto se encuentra dividido en microservicios y se podrá desplegar facilmente.
 
-[Git](https://github.com/MiguelSOAT/cloud-front)
-[Core](https://github.com/MiguelSOAT/cloud-core)
-[Telegram integration](https://github.com/MiguelSOAT/telegram-bot)
-[Docker](https://github.com/MiguelSOAT/docker)
+- [Git](https://github.com/MiguelSOAT/cloud-front)
+- [Core](https://github.com/MiguelSOAT/cloud-core)
+- [Telegram integration](https://github.com/MiguelSOAT/telegram-bot)
+- [Docker](https://github.com/MiguelSOAT/docker)
 
 Para ello tendremos que ejecutar el siguiente comando en todos los servicios.
 ```bash
