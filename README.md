@@ -9,9 +9,9 @@ This is a standalone project that focuses on creating a cloud storage tool acces
 The project uses a variety of modern technologies, which include:
 
 - **Front-end:** React
-- Back-end:** Node.js, Express
-- Message handling: ** Kafka
-- Containers:** Docker
+- **Back-end:** Node.js, Express
+- **Message handling: ** Kafka
+- **Containers:** Docker
 
 In addition, an integration with the Telegram API has been done to allow file uploads directly through the Telegram platform.
 
