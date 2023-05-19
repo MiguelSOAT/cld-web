@@ -31,9 +31,9 @@ To clone and run this project, you will need [Git](https://git-scm.com) and [Nod
 
 The project is divided into microservices and can be easily deployed.
 
-- Git](https://github.com/MiguelSOAT/cloud-front)
-- Core](https://github.com/MiguelSOAT/cloud-core)
-- Telegram integration](https://github.com/MiguelSOAT/telegram-bot)
+- [Git](https://github.com/MiguelSOAT/cloud-front)
+- [Core](https://github.com/MiguelSOAT/cloud-core)
+- [Telegram integration](https://github.com/MiguelSOAT/telegram-bot)
 - [Docker](https://github.com/MiguelSOAT/docker)
 
 To do this we will need to run the following command on all services.
